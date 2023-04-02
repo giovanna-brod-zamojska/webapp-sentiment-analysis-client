@@ -1,0 +1,58 @@
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+margin-bottom: 10px;
+}
+  
+.list-group-item {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+  }
+  .task-description {
+    flex: 1;
+    margin-left: 20px;
+  }
+  .btn-danger {
+    margin-left: 20px;
+  }
+
+/* TaskListComponent */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .task-description {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  /* Shared */
+  .list-group {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bi-trash {
+    font-size: 18px;
+  }
+  

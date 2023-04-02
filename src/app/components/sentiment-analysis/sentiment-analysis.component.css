@@ -1,0 +1,27 @@
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    background-color: #00b7ff;
+    color: #fff;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #00b7ff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #00b7ff;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
