@@ -12,7 +12,7 @@ app.use(cors());
 
 
 // Connect to MongoDB database
-mongoose.connect('mongodb://localhost:27017/mynewdb', {
+mongoose.connect('mongodb://mongo-docker_mongo-app_1:27017/mynewdb', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
