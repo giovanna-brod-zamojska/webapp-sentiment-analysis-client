@@ -12,7 +12,7 @@ app.use(cors());
 
 
 // Connect to MongoDB database
-mongoose.connect('mongodb://172.18.0.2/my-database', {
+mongoose.connect('mongodb://172.23.0.2/my-database', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
