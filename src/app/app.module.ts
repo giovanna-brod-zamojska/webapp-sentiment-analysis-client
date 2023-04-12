@@ -16,6 +16,7 @@ import { RobertaComponent } from './components/roberta/roberta.component';
 
 
 import { TaskService } from './services/task.service';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TaskService } from './services/task.service';
     NavbarComponent,
     NewTaskComponent,
     SentimentAnalysisComponent,
-    RobertaComponent
+    RobertaComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
