@@ -20,20 +20,6 @@
     <div class="col-md-6">
       <label for="title" class="form-label">Title</label>
       <input type="text" class="form-control input-sm" id="title" [(ngModel)]="title" #name="ngModel" required>
-      <div *ngIf="title.invalid && (title.dirty || title.touched)"
-          class="alert">
-
-        <div *ngIf="title.errors?.['required']">
-          Name is required.
-        </div>
-        <div *ngIf="title.errors?.['minlength']">
-        Name must be at least 4 characters long.
-        </div>
-        <div *ngIf="title.errors?.['forbiddenName']">
-          Name cannot be Bob.
-        </div>
-
-      </div>
     </div>
     <div class="col-md-6">
       <label for="description" class="form-label">Description</label>
