@@ -13,10 +13,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { TaskListComponent } from './components/task-list/task-list.component';
 import { SentimentAnalysisComponent } from './components/sentiment-analysis/sentiment-analysis.component';
 import { RobertaComponent } from './components/roberta/roberta.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 
 import { TaskService } from './services/task.service';
-import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +31,8 @@ import { ProjectsComponent } from './projects/projects.component';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     AppRoutingModule,
-    HttpClientModule
   ],
   providers: [TaskService],
   bootstrap: [AppComponent]
