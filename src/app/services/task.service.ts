@@ -10,7 +10,7 @@
     providedIn: 'root'
   })
   export class TaskService {
-    private baseUrl = 'http://localhost:3000/api';
+    private baseUrl = 'http://192.168.0.197:3000/api';
   
     constructor(private http: HttpClient) { }
   
